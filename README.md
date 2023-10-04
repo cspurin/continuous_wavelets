@@ -16,3 +16,12 @@ Recommended steps for running the notebook.
    pip install -r requirements.txt
    NB must be in the folder where the requirements.txt file is. Alternatively, you can install the packages individually e.g. pip install numpy.
    Now open the notebook (wavelet_plotting_GRL_paper.ipynb) and begin!
+
+#Guide to code inputs 
+
+#Guide to code outputs 
+![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/5e300e9b-edfd-4d25-a40d-58f58de95666)
+![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/696a0e3e-36bb-49fe-bd03-f4c4e7fc72d0)
+![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/8603a9af-fa22-4682-bcea-9ce7dac6f2d2)
+![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/831b4825-1d9b-400f-a293-ffc84eab23d2)
+![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/20455d8a-9607-4879-83be-031ea30474a3)
