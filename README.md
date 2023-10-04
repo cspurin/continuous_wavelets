@@ -17,9 +17,21 @@ Recommended steps for running the notebook.
    NB must be in the folder where the requirements.txt file is. Alternatively, you can install the packages individually e.g. pip install numpy.
    Now open the notebook (wavelet_plotting_GRL_paper.ipynb) and begin!
 
-#Guide to code inputs 
+# Guide to code inputs 
+The variables for the wavelet analysis are 
+1. dt
+2. mirror = True
+3. om0 = 6
+4. dj=0.1
+5. wf = 'dog' # or 'morlet'
+6. mirrormethod = 2 # 1 or 2 (mirroring method reduces end effects, so type of mirroring depends on the pressure signal and overall trend)
+7. filter
+8. infile
 
-#Guide to code outputs 
+Update these for your data set and then you are good to go! 
+
+# Guide to code outputs 
+## The first output is the pressure data that is used in the CWT 
 ![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/5e300e9b-edfd-4d25-a40d-58f58de95666)
 ![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/696a0e3e-36bb-49fe-bd03-f4c4e7fc72d0)
 ![image](https://github.com/cspurin/continuous_wavelets/assets/108369280/8603a9af-fa22-4682-bcea-9ce7dac6f2d2)
