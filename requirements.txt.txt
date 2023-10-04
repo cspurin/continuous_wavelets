@@ -1,0 +1,4 @@
+quick_wavelet 
+numpy
+matplotlib
+wrapper
