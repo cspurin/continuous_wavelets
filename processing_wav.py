@@ -39,7 +39,7 @@ def pad(x, method='reflection'):
         right_x = np.zeros(rdiff, dtype=x_arr.dtype)
         
     xp = np.concatenate((left_x, x_arr, right_x))
-    orig = np.ones(x_arr.shape[0] + diff, dtype=np.bool)
+    orig = np.ones(x_arr.shape[0] + diff, dtype=bool)
     orig[:ldiff] = False
     orig[-rdiff:] = False
    
