@@ -1,3 +1,16 @@
+# Installation
+
+Create a virutal environment:
+
+```bash
+python -m venv venv
+```
+
+Activate your virtual environment, then install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 # continuous_wavelets
 Here we take the differential pressure from flow in porous media experiments, and use continuous wavelet transformation (CWT) to gain further insight into the pressure data. The fluctuations in the pressure data provide key insights to the underlying pore-scale dynamics. 
 
