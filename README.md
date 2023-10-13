@@ -13,14 +13,15 @@ Recommended steps for running the notebook.
 4. Open a new folder (link it the folder containing the contents of this repository, wherever that is on your computer)
 5. Create a virtual enviornment. In vscode click View>Terminal and enter the code below: <br> 
    ```bash
-python -m venv venv
-```
+   python -m venv venv
+   ```
+   
    Then for Mac enter: source myenv/bin/activate <br> 
    or for Windows: myenv\Scripts\activate 
 7. Install the necessary packages by typing this in the terminal:
    ```bash
-pip install -r requirements.txt
-```
+   pip install -r requirements.txt
+   ```
    NB must be in the folder where the requirements.txt file is. Alternatively, you can install the packages individually e.g. pip install numpy.
    Now open the notebook (wavelet_plotting_GRL_paper.ipynb) and begin!
 
