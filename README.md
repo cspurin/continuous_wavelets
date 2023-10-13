@@ -15,14 +15,14 @@ Recommended steps for running the notebook.
    ```bash
    python -m venv venv
    ```
-   
    Then for Mac enter: source myenv/bin/activate <br> 
-   or for Windows: myenv\Scripts\activate 
+   or for Windows: myenv\Scripts\activate
+   
 7. Install the necessary packages by typing this in the terminal:
    ```bash
    pip install -r requirements.txt
    ```
-   NB must be in the folder where the requirements.txt file is. Alternatively, you can install the packages individually e.g. pip install numpy.
+   NB. must be in the folder where the requirements.txt file is. Alternatively, you can install the packages individually e.g. pip install numpy.
    Now open the notebook (wavelet_plotting_GRL_paper.ipynb) and begin!
 
 # Guide to code inputs 
